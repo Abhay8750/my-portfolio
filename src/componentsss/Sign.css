@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.signin-page {
+  height: 100vh;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-box {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 30px;
+  width: 320px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+}
+
+.signin-box h1 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.signin-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+}
+
+.signin-box button {
+  width: 100%;
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signin-box button:hover {
+  background: #0ea5e9;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 14px;
+}

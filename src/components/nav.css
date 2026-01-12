@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAV CONTAINER */
+.main_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 80px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* LOGO */
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.logo .links {
+  color: #f9fafb;
+  text-decoration: none;
+}
+
+/* MENU */
+.ul_section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+/* LINKS */
+.link {
+  position: relative;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #e5e7eb;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+/* ACTIVE LINK (NavLink MAGIC 🔥) */
+.link.active {
+  color: #38bdf8;
+}
+
+/* UNDERLINE EFFECT */
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #38bdf8;
+  transition: width 0.3s ease;
+}
+
+.link:hover::after,
+.link.active::after {
+  width: 100%;
+}
+
+.link:hover {
+  color: #38bdf8;
+}
+
+/*  */
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .main_div {
+    padding: 16px 20px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .ul_section {
+    gap: 18px;
+  }
+
+  .link {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main_div {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .ul_section {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+}

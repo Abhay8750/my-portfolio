@@ -1,0 +1,152 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* Portfollio */
+
+.Portfollio {
+  padding: 80px;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #f9fafb;
+}
+
+/* title */
+.portfolio_pro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.portfolio_pro>h2 {
+  color: #38bdf8;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.portfolio_pro>h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+/* Portfolio list */
+
+.portfolio_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.portfolio_list>div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+}
+
+
+/* hover div */
+.portfolio_list>div:hover {
+  transform: translateY(-6px);
+  background: rgba(56, 189, 248, 0.12);
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* img */
+.portfolio_list .img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.portfolio_list .img img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* use_lang */
+
+.use_lang {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 4px;
+}
+
+.use_lang>.course {
+  margin-top: 9px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  padding: 10px 17px;
+  background: rgba(255, 255, 255, 0.04);
+
+  /* background-color: red; */
+  transition: 0.3s all ease;
+}
+
+.use_lang>.course:hover {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  transform: translateY(-2px);
+}
+
+.portfolio_list p {
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+
+}
+
+
+/* button */
+.portfolio_list .button_section {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 10px;
+}
+
+.button_section a>button,
+.button_section>button {
+  padding: 9px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.button_section button:first-child {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.button_section button:last-child {
+  background: transparent;
+  border: 2px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.button_section button:hover {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  transform: translateY(-2px);
+}
+
+
+
+/* media */
+
+
+@media (max-width: 768px) {
+  .Portfollio {
+    padding: 60px 20px;
+  }
+
+  .portfolio_pro h3 {
+    font-size: 1.8rem;
+  }
+}

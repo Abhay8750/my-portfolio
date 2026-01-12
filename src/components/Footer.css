@@ -1,0 +1,128 @@
+/* ===== Footer Base ===== */
+.footer {
+  background-color: #0f172a; /* dark navy */
+  color: #e5e7eb;
+  padding: 60px 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Main Layout ===== */
+.footer .main {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+/* ===== Title Section ===== */
+.footer .title h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer .tagline {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
+
+/* Social Icons */
+.footer .title ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.footer .title ul li a {
+  color: #e5e7eb;
+  font-size: 18px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer .title ul li a:hover {
+  color: #38bdf8;
+  transform: translateY(13px);
+}
+
+/* ===== Links Section ===== */
+.footer .link h1,
+.footer .contact h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer .link ul {
+  list-style: none;
+}
+
+.footer .link ul li {
+  margin-bottom: 10px;
+}
+
+.footer .link ul li a {
+  text-decoration: none;
+  color: #cbd5f5;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer .link ul li a:hover {
+  color: #38bdf8;
+}
+
+/* ===== Contact Section ===== */
+.footer .contact p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.footer .contact a {
+  text-decoration: none;
+  color: #cbd5f5;
+  transition: color 0.3s ease;
+}
+
+.footer .contact a:hover {
+  color: #38bdf8;
+}
+
+.footer .contact svg {
+  color: #38bdf8;
+  font-size: 16px;
+}
+
+/* ===== Bottom Bar ===== */
+.footer > div:last-child {
+  border-top: 1px solid #1e293b;
+  margin-top: 40px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.footer > div:last-child h3 {
+  font-size: 13px;
+  color: #94a3b8;
+  font-weight: normal;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer .title ul {
+    justify-content: center;
+  }
+
+  .footer .contact p {
+    justify-content: center;
+  }
+}
