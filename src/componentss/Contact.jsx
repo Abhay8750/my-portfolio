@@ -1,64 +1,3 @@
-// import React from 'react'
-// import "./contact.css"
-// import { MdEmail } from "react-icons/md";
-// import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
-// import { FaFacebookF, FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
-
-
-
-// function Contact() {
-//     return (
-//         <div className='contactpage'>
-//             {/* title */}
-//             <div className="contact_title">
-//                 <h2>Contact</h2>
-//                 <h3>Get In Touch</h3>
-//             </div>
-//             {/*  */}
-//             <div className="parentbox">
-
-//                 <div className="contact_box">
-//                     <h2>Let's Talk</h2>
-//                     <div className="gmail">
-//                         <MdEmail /> <span>abhay@example.com</span>
-//                     </div>
-//                     <div className="phone">
-//                         <FaPhoneAlt /> <span>+8750 8764 89</span>
-//                     </div>
-//                     <div className="map">
-//                         <FaMapMarkerAlt /> <span>Faridabad, India</span>
-//                     </div>
-//                     <div className="logo">
-//                         <FaFacebookF />  <FaInstagram /> <FaGithub /> <FaLinkedinIn />
-//                     </div>
-//                 </div>
-//                 {/* input */}
-//                 <form className="input">
-//                     <input type="text" name="name"  placeholder='Your Name' required />
-//                     <input type="text" name="email" placeholder='Your Email' required />
-//                     <textarea name="message"  rows="5" placeholder='Your Message' required></textarea>
-//                     <button type='submit'>Send Message</button>
-//                 </form>
-//             </div>
-
-//         </div>
-//     )
-// }
-// export default Contact
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useState } from "react";
 import "./contact.css";
 import { MdEmail } from "react-icons/md";
@@ -110,7 +49,7 @@ function Contact() {
         <div className="contact_box">
           <h2>Let's Talk</h2>
 
-          <div><MdEmail /> <span>abhay@example.com</span></div>
+          <div><MdEmail /> <span>abhaypa875@gmail.com</span></div>
           <div><FaPhoneAlt /> <span>+91 8750 8764 89</span></div>
           <div><FaMapMarkerAlt /> <span>Faridabad, India</span></div>
 
