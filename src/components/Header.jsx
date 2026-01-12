@@ -1,7 +1,7 @@
 import React from "react";
 import resume from "./Abhay_Resume.pdf";
 import portfolioImg from "./portfolio.png";
-import "./header.css";
+import "./Header.css";
 import About from "../componentss/About"
 import Service from "../componentss/Services"
 import Portfolio from "../componentsss/Portfollio"
