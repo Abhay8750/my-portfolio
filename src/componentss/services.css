@@ -6,7 +6,7 @@
 
 /* SERVICES SECTION */
 .service {
-  min-height: 100vh;
+  min-height: auto;
   padding: 80px;
   background: linear-gradient(135deg, #020617, #0f172a);
   color: #f9fafb;
