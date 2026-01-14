@@ -6,7 +6,7 @@
 
 /* ABOUT SECTION */
 .about {
-  min-height: auto;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,6 +91,7 @@
 
 @media (max-width: 1024px) {
   .about {
+    min-height: 70vh;
     flex-direction: column;   
     padding: 30px 16px;
     text-align: center;

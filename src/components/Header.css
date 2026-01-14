@@ -118,6 +118,7 @@
 ========================= */
 @media (max-width: 1024px) {
   .header {
+    min-height: 70vh;
     grid-template-columns: 1fr;
     text-align: center;
     padding: 40px 20px;

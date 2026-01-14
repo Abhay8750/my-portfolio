@@ -6,7 +6,8 @@
 
 /* SERVICES SECTION */
 .service {
-  min-height: auto;
+
+  min-height: 90vh;
   padding: 80px;
   background: linear-gradient(135deg, #020617, #0f172a);
   color: #f9fafb;
@@ -81,6 +82,7 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .service {
+    min-height: 70vh;
     padding: 40px 16px;
   }
 
@@ -111,6 +113,7 @@
 /*  */
 @media (max-width: 1024px) {
   .service {
+    min-height: 70vh;
     padding: 60px 20px;
   }
 

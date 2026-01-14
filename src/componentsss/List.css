@@ -6,9 +6,9 @@
 }
 
 .todo-app {
+  min-height: 60vh;
   background: linear-gradient(135deg, #020617, #0f172a);
   padding: 30px;
-  min-height: auto;
   border-radius: 12px;
   color: white;
   text-align: center;

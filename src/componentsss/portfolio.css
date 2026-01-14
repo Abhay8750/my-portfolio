@@ -7,6 +7,7 @@
 /* Portfollio */
 
 .Portfollio {
+  min-height: 90vh;
   padding: 80px;
   background: linear-gradient(135deg, #020617, #0f172a);
   color: #f9fafb;
@@ -143,6 +144,7 @@
 
 @media (max-width: 1024px) {
   .Portfollio {
+    min-height: 70vh;
     padding: 50px 20px;
   }
 

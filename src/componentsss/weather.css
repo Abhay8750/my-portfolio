@@ -1,5 +1,5 @@
 .weather-container {
-  min-height: auto;
+  min-height:80vh;
   background: linear-gradient(135deg, #020617, #0f172a);
   color: white;
   display: flex;

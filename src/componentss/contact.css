@@ -6,6 +6,7 @@
 
 /* ===== CONTACT PAGE ===== */
 .contactpage {
+  min-height: 90vh;
   padding: 80px;
   background: linear-gradient(135deg, #020617, #0f172a);
   color: #f9fafb;
@@ -139,6 +140,7 @@
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
   .contactpage {
+    min-height: 70vh;
     padding: 50px 20px;
   }
 
