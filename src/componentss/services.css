@@ -81,10 +81,51 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .service {
+    padding: 40px 16px;
+  }
+
+  .service_pro h3 {
+    font-size: 2rem;
+  }
+
+  .service_list {
+    grid-template-columns: 1fr;   /* One card per row */
+    gap: 20px;
+  }
+
+  .service_list > div {
+    padding: 20px;
+  }
+
+  .font h1 {
+    font-size: 1.1rem;
+  }
+
+  .service_list p {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+/*  */
+@media (max-width: 1024px) {
+  .service {
     padding: 60px 20px;
   }
 
   .service_pro h3 {
     font-size: 2.2rem;
   }
+
+  .service_list {
+    grid-template-columns: repeat(1, 1fr);  /* 1 cards per row */
+    gap: 25px;
+  }
+  .service_list > div {
+  padding: 40px 35px;
 }
+
+}
+
+

@@ -8,7 +8,7 @@
 .todo-app {
   background: linear-gradient(135deg, #020617, #0f172a);
   padding: 30px;
-  /* width: 350px; */
+  min-height: auto;
   border-radius: 12px;
   color: white;
   text-align: center;

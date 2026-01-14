@@ -31,11 +31,12 @@
 
 /* ===== MAIN LAYOUT ===== */
 .parentbox {
-  max-width: 1100px;
+  max-width:auto;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 50px;
+  padding: 22px;
 }
 
 /* ===== LEFT CONTACT INFO ===== */
@@ -136,7 +137,7 @@
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .contactpage {
     padding: 50px 20px;
   }
