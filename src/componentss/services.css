@@ -39,7 +39,7 @@
 }
 
 /* SERVICE CARD */
-.service_list > div {
+.service_list>div {
   background: rgba(255, 255, 255, 0.04);
   padding: 30px 25px;
   border-radius: 16px;
@@ -48,7 +48,7 @@
 }
 
 /* HOVER EFFECT */
-.service_list > div:hover {
+.service_list>div:hover {
   transform: translateY(-8px);
   background: rgba(56, 189, 248, 0.12);
 }
@@ -80,9 +80,9 @@
 }
 
 /* RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .service {
-    min-height: 70vh;
+    min-height: 60vh;
     padding: 40px 16px;
   }
 
@@ -91,21 +91,15 @@
   }
 
   .service_list {
-    grid-template-columns: 1fr;   /* One card per row */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
     gap: 20px;
   }
 
-  .service_list > div {
-    padding: 20px;
-  }
-
-  .font h1 {
-    font-size: 1.1rem;
-  }
-
-  .service_list p {
-    font-size: 0.9rem;
-  }
+  
 }
 
 
@@ -114,21 +108,13 @@
 @media (max-width: 1024px) {
   .service {
     min-height: 70vh;
-    padding: 60px 20px;
-  }
-
-  .service_pro h3 {
-    font-size: 2.2rem;
+    padding: 40px 16px;
   }
 
   .service_list {
-    grid-template-columns: repeat(1, 1fr);  /* 1 cards per row */
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: auto auto;
+    gap: 60px;
   }
-  .service_list > div {
-  padding: 40px 35px;
-}
 
 }
-
-

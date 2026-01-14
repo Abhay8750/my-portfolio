@@ -10,6 +10,7 @@
   padding: 80px;
   background: linear-gradient(135deg, #020617, #0f172a);
   color: #f9fafb;
+
 }
 
 /* ===== TITLE ===== */
@@ -146,10 +147,20 @@
 
   .parentbox {
     grid-template-columns: 1fr;
+    gap: 100px;
+    margin-top: 22px;
   }
+ 
 
   .contact_box,
   .input {
     padding: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+ .contactpage {
+    min-height: 55vh;
+    padding: 30px 20px;
   }
 }

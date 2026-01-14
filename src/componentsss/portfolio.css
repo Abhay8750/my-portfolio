@@ -149,7 +149,7 @@
   }
 
   .portfolio_list {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   }
    .portfolio_pro h3 {
     font-size: 1.8rem;
@@ -166,5 +166,28 @@
 }
 }
 
+@media (max-width: 510px) {
+  .Portfollio {
+    min-height: 50vh;
+    padding: 50px 20px;
+  }
+
+  .portfolio_list {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+   .portfolio_pro h3 {
+    font-size: 1.8rem;
+  }
+  .use_lang>.course {
+  margin-top: 9px;
+  border-radius: 4px;
+  letter-spacing: 0px;
+  font-size: 12px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.04);
+
+  transition: 0.3s all ease;
+}
+}
 
  
